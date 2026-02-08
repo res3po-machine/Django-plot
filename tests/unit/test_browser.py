@@ -17,6 +17,7 @@ def test_browser_smoke(browser_type, tmpdir):
     )
     assert browser.driver.name == browser_type.lower()
 
+#test for git pull request
 
 def test_browser_use_remote_webdriver(tmpdir):
     # test creation with remote=True
